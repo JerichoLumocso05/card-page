@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="envelope-container" onclick="toggleEnvelope()">
+        <div class="envelope">
+            <div class="flap"></div>
+            <div class="card">
+                <div class="heart">❤️</div>
+                <div class="message">Happy Valentine's Day Baby! 💖</div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleEnvelope() {
+            document.querySelector('.envelope').classList.toggle('open');
+        }
+    </script>
+</body>
+</html>
